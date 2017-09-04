@@ -1,0 +1,203 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"><html style="direction:ltr"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta http-equiv="content-language" content="en"><title>Quality Check (Terminal)</title><style type="text/css">/*----------------------------------*/
+/* 				Reporting      		*/
+/*----------------------------------*/
+
+/*----------------------------------*/
+/* 		Reporting Web Interface		*/
+/*----------------------------------*/
+
+	.reportSelectionBody {font-family: arial, sans-serif; font-size: 9pt; margin: 15px;}
+	.reportSelectionTable TD {padding: 3px;}
+
+	.reportSelectionTable input, .reportSelectionTable select{
+	background-color: #F0F1F2; 
+}
+
+	.reportSelectionTable label{
+	padding-left: 8px;
+}
+
+	.reportSelectionTable button{
+	font-size: 8pt;
+}
+
+input.resportSelectionRadio {background-color: transparent;}
+
+	.reportSelectionTableHeader {background-color: #F9EFCE; color: #D95721;}
+	.reportSelectionErrorHeader {background-color: red; color: white;}
+	.reportSelectionInfoHeader  {background-color: blue; color: white;}
+	.reportSelectionDescriptionHeader {}
+	.reportSelectionDescription {margin-top: 15px; margin-bottom: 15px;}
+	.reportSelectionDescriptionTable {border-collapse: collapse; margin-top: 15px; margin-bottom: 15px;}
+	.reportSelectionDescriptionHeader TD {font-weight: bold; text-align: center;}
+	.reportItemFieldsTable {width: 250px}
+	.reportItemFieldsHeader {font-family: arial, sans-serif;font-size: 12pt;text-align: left;}
+	.reportItemFieldsSelection {width: 200px;}
+	.reportItemFieldsAssignButton {width: 100px; margin-left: 15px; margin-right: 15px;}
+	.reportItemFieldsOrderButton {width: 50px; margin-left: 15px; margin-right: 15px;}
+
+/*----------------------------------*/
+/* 		Reporting Rendering		*/
+/*----------------------------------*/
+
+
+	.reportDescriptionHeader, .reportDescription, .reportTable{
+	font-family: arial, sans-serif ;font-size: 9pt;
+}
+
+	.reportDescription {margin-top: 15px; margin-bottom: 15px;}
+	.reportDescriptionHeader {font-family: arial, sans-serif;font-size: 12pt;font-weight: bold; text-decoration: underline;}
+	.reportTable {border: 1px solid steelblue; border-collapse: collapse;}
+	.reportTable TD {font-family: arial, sans-serif; font-size: 11pt; padding-top: 1px; padding-bottom: 1px; padding-left: 3px; padding-right: 3px; border: 1px solid lightgrey;}
+	.reportRow {font-family: arial, sans-serif; font-size: 11pt; border-top: 1px solid steelblue;}
+	.reportRow TD {	font-family: arial, sans-serif; font-size: 11pt; }
+
+	.reportFields{
+	background-color: #295b97;
+	color: white;
+	font-family: arial, sans-serif;font-size: 12pt;	font-weight: bold;	
+	text-align: center;
+	border-right: blue thin solid;
+	border-top: blue thin solid;
+	border-left: blue thin solid;
+	border-bottom: blue thin solid;
+}
+
+	.reportGroupHeader{
+	background-color: #a4bcd5;
+	font-family: arial, sans-serif;font-size: 12pt;	font-weight: bold;	
+}
+	
+	.reportGraphImage{
+	padding-top: 150px;
+}
+
+	.reportGroupHeader TD{
+	font-family: arial, sans-serif;font-size: 12pt;	font-weight: bold;	
+}
+
+	.reportGroupHeaderEmpty{
+	background-color: white;
+	font-family: arial, sans-serif;font-size: 12pt;	font-weight: bold;		
+}
+
+	.reportGenerationTable {
+  border-collapse: collapse;
+  border-width: 0px;
+  width: 100%;  
+}
+	.reportGenerationTable tr td{
+  border: 0;
+}
+
+	.reportGenerationTime TD {
+	font-size: 9pt;
+	text-align: right;
+}
+
+	.reportAnnotations TD {
+	font-size: 9pt;
+}
+
+	.reportAggregates{
+	background-color: #7d9fc5;
+	font-family: arial, sans-serif;font-size: 12pt;	font-weight: bold;	
+}
+
+	.reportAggregatesEmpty {background-color: white; font-family: arial, sans-serif;font-size: 12pt;font-weight: bold;}
+
+	.reportGrandAggregatesHeader, .reportGrandAggregates{
+	background-color:#295b97;
+	color: black;
+	font-family: arial, sans-serif;
+	font-size: 12pt;
+	font-weight: bold;
+}
+
+	.reportHilightedCell {
+    background-color: #FFC000;
+}</style>
+</head>
+<body class="WC_Body">
+<div class="reportDescriptionHeader">Quality Check (Terminal)</div>
+<div class="reportDescription">Shows the earliest known terminal event details</div>
+<div class="reportDescriptionHeader">Report Parameters</div>
+<div class="reportDescription">MaxResult: 5<br/>Timezone: GMT<br/>GeoReferenceSystem: Global<br/>Language: English<br/></div>
+<table class="reportTable">
+    <tr class="reportFields">
+        <td>Terminal Name</td>
+        <td></td>
+        <td>Type</td>
+        <td>Event Time</td>
+        <td>Asset</td>
+        <td>Position URL</td>
+        <td>Geo Reference</td>
+        <td>GPS Check?</td>
+        <td>GPRS Check?</td>
+        <td>Final Check?</td>
+    </tr>
+    <tr class="reportGroupHeader">
+        <td colspan="10">359006059546816</td>
+    </tr>
+    <tr class="reportRow">
+        <td >359006059546816</td>
+        <td ></td>
+        <td >Tag Out</td>
+        <td >27/08/2017 08:04:45 GMT</td>
+        <td >OMAN - 8963</td>
+        <td ><a href="http://maps.google.com/maps?q=19.679119,57.679314+(OMAN%20-%208963)" target="_blank">19.679119°N, 57.679314°E</a></td>
+        <td >22.2 km SW from Dubai,United Arab Emirates,AE</td>
+        <td >Yes</td>
+        <td >Yes</td>
+        <td >Yes</td>
+    </tr>
+    <tr class="reportRow">
+        <td >359006059546816</td>
+        <td ></td>
+        <td >Ignition Off</td>
+        <td >27/08/2017 08:03:44 GMT</td>
+        <td >OMAN - 8963</td>
+        <td ><a href="http://maps.google.com/maps?q=19.679152,57.679314+(OMAN%20-%208963)" target="_blank">19.679152°N, 57.679314°E</a></td>
+        <td >22.2 km SW from Dubai,United Arab Emirates,AE</td>
+        <td >Yes</td>
+        <td >Yes</td>
+        <td >Yes</td>
+    </tr>
+    <tr class="reportRow">
+        <td >359006059546816</td>
+        <td ></td>
+        <td >Position Report</td>
+        <td >27/08/2017 08:02:21 GMT</td>
+        <td >OMAN - 8963</td>
+        <td ><a href="http://maps.google.com/maps?q=19.679770,57.681595+(OMAN%20-%208963)" target="_blank">19.679770°N, 57.681595°E</a></td>
+        <td >22.2 km SW from Dubai,United Arab Emirates,AE</td>
+        <td >Yes</td>
+        <td >Yes</td>
+        <td >Yes</td>
+    </tr>
+    <tr class="reportRow">
+        <td >359006059546816</td>
+        <td ></td>
+        <td >Position Report</td>
+        <td >27/08/2017 08:01:05 GMT</td>
+        <td >OMAN - 8963</td>
+        <td ><a href="http://maps.google.com/maps?q=19.681625,57.683880+(OMAN%20-%208963)" target="_blank">19.681625°N, 57.683880°E</a></td>
+        <td >22.2 km SW from Dubai,United Arab Emirates,AE</td>
+        <td >Yes</td>
+        <td >Yes</td>
+        <td >Yes</td>
+    </tr><tr class="reportRow">
+    <td >359006059546816</td>
+    <td ></td>
+    <td >Position Report</td>
+    <td >27/08/2017 08:00:34 GMT</td>
+    <td >OMAN - 8963</td>
+    <td ><a href="http://maps.google.com/maps?q=19.682503,57.683399+(OMAN%20-%208963)" target="_blank">19.682503°N, 57.683399°E</a></td>
+    <td >22.2 km SW from Dubai,United Arab Emirates,AE</td>
+    <td >Yes</td>
+    <td >Yes</td>
+    <td >Yes</td>
+</tr>
+</table>
+</body>
+</html>
